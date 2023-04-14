@@ -6,7 +6,7 @@
 - Disk size: 1882M
 - Filesystem: btrfs
 - Init: sysvinit
-- External apps: thunderbird, neovim, patched mesa, custom kernel.
+- External apps: thunderbird, neovim, lite-xl, patched mesa, custom kernel.
 
 Licenses depends of used apps, mostly it some of [GNU GPL](https://www.gnu.org/licenses/)
 
