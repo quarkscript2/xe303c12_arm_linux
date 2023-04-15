@@ -1,12 +1,12 @@
 # Some builded disk images of [xe303c12_play_linux](https://github.com/quarkscript/xe303c12_play_linux)
 
 ## Devuan 4 / Chimaera (stable) disk image
-[Link to release](https://github.com/quarkscript2/xe303c12_arm_linux/releases/tag/Devuan_Chimaera_Arm_for_Google_Snow_Chromebook)
-- DE: LXQT + OPENBOX + SDDM autologin
+[Link to releases](https://github.com/quarkscript2/xe303c12_arm_linux/releases/tag/Devuan_Chimaera_Arm_for_Google_Snow_Chromebook)
+- DE: LXQT + OPENBOX + SDDM autologin / XFCE4 + XFWM + LightDM autologin
 - Disk size: 1882M
 - Filesystem: btrfs
 - Init: sysvinit
-- External apps: thunderbird, neovim, lite-xl, patched mesa, custom kernel.
+- External apps: thunderbird (inst-d at LXQt ver) , neovim, lite-xl, patched mesa, custom kernel.
 
 Licenses depends of used apps, mostly it some of [GNU GPL](https://www.gnu.org/licenses/)
 
@@ -15,6 +15,13 @@ Licenses depends of used apps, mostly it some of [GNU GPL](https://www.gnu.org/l
 > mesa-utils and neofetch are not installed by default
 
 > Extra instructions could be found at source repo
+
+## Alpine disk images
+[Link to releases](https://github.com/quarkscript2/xe303c12_arm_linux/releases/tag/Alpine_for_Google_Snow_Chromebook)
+
+- DE:  LXQT + OPENBOX autologin / XFCE4 + XFWM autologin
+- Filesystem: btrfs
+- Kernel: 5.15.106, taken from [Void-linux musl for xe303c12](https://github.com/quarkscript/linux-armv7-xe303c12-only) (actually from gitlab mirror) re-signed with diferent init path and manually installed
 
 ## Gentoo (stage 3) disk image
 [Link to release](https://github.com/quarkscript2/xe303c12_arm_linux/releases/tag/Gentoo_armv7hf_for_Google_Snow_Chromebook)
