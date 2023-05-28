@@ -38,3 +38,12 @@ In case you want to play with Gentoo Linux on Google Snow Chromebook (XE303C12) 
 > There is no point in compiling a new kernel during installation, unless you write your own recipe for it
 
 > If you need hw-acceleration, the mesa sources should be downgraded to 20.3.x and [patch](https://github.com/quarkscript/linux-armv7-xe303c12-only/blob/master/archlinuxarm/some_forked_apps/mesa/gpuac.patch) applied
+
+## OpenSUSE disk image
+[Link to release](https://github.com/quarkscript2/xe303c12_arm_linux/releases/tag/Opensuse_Arm_for_Google_Snow_Chromebook)
+- DE: LXQT + XFWM4 (OPENBOX) + LightDM autologin (RaspberryPi-2 ver)
+- Disk size: 1882M
+- Filesystem: btrfs
+- Init: systemd
+- System lib: glibc
+- Kernel 6.3.4 extracted and flashed from [debian package](https://gitlab.com/quarkscript/linarm/-/blob/master/pkg/linux-kernel-xe303c12-6.3.4.deb)
