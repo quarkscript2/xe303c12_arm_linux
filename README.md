@@ -47,3 +47,16 @@ In case you want to play with Gentoo Linux on Google Snow Chromebook (XE303C12) 
 - Init: systemd
 - System lib: glibc
 - Kernel 6.3.4 extracted and flashed from [debian package](https://gitlab.com/quarkscript/linarm/-/blob/master/pkg/linux-kernel-xe303c12-6.3.4.deb)
+
+## Debian 11 (minimal) disk image
+[Link to release](https://github.com/quarkscript2/xe303c12_arm_linux/releases/tag/Debian_Arm_for_Google_Snow_Chromebook)
+- DE: none, console
+- Disk size: 1882M
+- Filesystem: btrfs
+- Init: systemd
+- System lib: glibc
+- Kernel 6.3.4 
+
+Login: root 
+
+Pass: toor
